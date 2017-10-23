@@ -54,7 +54,7 @@ public class SsoAuthorizationServerConfig extends AuthorizationServerConfigurerA
     @Bean
     public JwtAccessTokenConverter jwtAccessTokenConverter(){
         JwtAccessTokenConverter jwtAccessTokenConverter = new JwtAccessTokenConverter();
-        jwtAccessTokenConverter.setSigningKey("springBlade");
+        jwtAccessTokenConverter.setSigningKey("guxiang");
         return jwtAccessTokenConverter;
     }
 }
